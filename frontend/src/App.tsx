@@ -1,14 +1,13 @@
 import { useState } from 'react'
-import {Button, Typography} from '@mui/material';
+import {Button, Typography,IconButton} from '@mui/material';
+import DeleteIcon from '@mui/icons-material/Delete';
 import './App.css';
-import Landing from './components/Landing';
+import Landing from './components/Landing/Landing';
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <Typography variant='h1'>hi this is my app cicha....</Typography>
-      <Button variant="contained">hiii</Button>
       <Landing></Landing>
     </div>
   )
