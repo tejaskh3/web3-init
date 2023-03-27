@@ -2,6 +2,7 @@ import React from 'react'
 import {Button, Typography,Box,Stack  }from '@mui/material';
 import Header from './Header';
 import CoverImage from './CoverImage';
+import Description from './Description';
 
 const sxStyle ={
   color:'red',
@@ -32,14 +33,22 @@ export default function Landing() {
           </Button>
           <Button variant="contained"
           sx={{ fontSize: '1.2rem', padding:'0 1.2rem' }}
-          style={{ backgroundColor: 'rgb(0, 255, 119)' }}
+          style={{ backgroundColor: 'rgb(0, 255, 119)' , boxShadow: "3px 3px 3px green"}}
           >
             Register
           </Button>
         </Stack>
       </Box>
       </Stack>
+      <Stack
+      // direction={{ xs: 'column', sm: 'row' }}
+      // direction={'col'}
+      sx={{ fontSize: '1.2rem', padding:'.6rem 1.2rem' }}
+      >
+
+      </Stack>
       <CoverImage></CoverImage>
+      <Description></Description>
     </div>
   );
 }

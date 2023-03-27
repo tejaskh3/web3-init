@@ -143,11 +143,12 @@ import { styled } from '@mui/material/styles';
 
 const ImageWrapper = styled('div')(({ theme }) => ({
   position: 'relative',
-  marginTop: '80px',
+  marginTop: '90px',
+  // display: 'hidden',
   '& .rotate': {
     position: 'absolute',
     right: '100%',
-    transform: 'translate(10px, 20px) rotate(-10deg)',
+    transform: 'translate(10px, 20px) rotate(-10deg) ',
   },
   '& .phone': {
     position: 'absolute',
@@ -178,7 +179,7 @@ const ImageWrapper = styled('div')(({ theme }) => ({
   },
   [theme.breakpoints.down('sm')]: {
     '& .rotate': {
-      // display: 'none',
+      display: 'none',
       width:'100px',
       position: 'absolute',
       margin:'auto',
