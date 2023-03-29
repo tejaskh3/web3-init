@@ -56,6 +56,8 @@ import Header from './Header';
 import Home from './Home';
 import Access from './Access';
 import Records from './Records';
+import Record from './Record';
+import AddRecords from './AddRecords';
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -69,8 +71,10 @@ export default function First() {
     <>
     <Header></Header>
      {/* <Home></Home> */}
-      <Access></Access>
-    {/* <Records></Records> */}
+      {/* <Access></Access> */}
+      {/* <AddRecords></AddRecords> */}
+    <Records></Records>
+
     </>
 
 
