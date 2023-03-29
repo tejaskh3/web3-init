@@ -31,7 +31,7 @@ export default function Popup() {
       }}
     >
       <Box sx={{ color: '#2b4e71' }}>
-        <Typography variant="h2">Sign UP</Typography>
+        <Typography variant="h2">Sign Up</Typography>
         <Typography variant="h5" color={'black'}>
           Register as
         </Typography>
@@ -50,7 +50,7 @@ export default function Popup() {
         variant="contained"
         sx={{ fontSize: '1.2rem', padding: '.6rem 1.2rem' }}
         style={{
-          backgroundColor: 'rgb(0, 255, 119)',
+          backgroundColor: 'rgb(34, 139, 34)',
           boxShadow: '3px 3px 3px green',
           margin: '3px'
         }}

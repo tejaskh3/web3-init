@@ -155,6 +155,8 @@ const ImageWrapper = styled('div')(({ theme }) => ({
     left: 0,
     top: 0,
     width: '600px',
+    backgroundColor: '#F9F6EE',
+
   },
   '& .plus': {
     position: 'absolute',
@@ -190,7 +192,8 @@ const ImageWrapper = styled('div')(({ theme }) => ({
 
 export default function CoverImage() {
   return (
-    <ImageWrapper>
+    <ImageWrapper
+    sx={{background:'#F9F6EE',}}>
       <div className="rotate">
         <img src={phone} className='phone' alt="" />
         <img src={plus} className='plus' alt="" />

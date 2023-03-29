@@ -15,8 +15,7 @@ export default function DoctorRegister() {
         textAlign: 'center',
         boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
         background:'#F9F6EE',
-
-
+        
     }}
     >
     <FormControl>

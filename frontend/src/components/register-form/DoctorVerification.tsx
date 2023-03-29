@@ -37,7 +37,7 @@ export default function DoctorRegister() {
     <Button  variant="contained"
         sx={{ fontSize: '1.2rem', padding: '.6rem 1.2rem' }}
         style={{
-          backgroundColor: 'rgb(0, 255, 119)',
+          backgroundColor: 'rgb(0, 163, 108)',
           boxShadow: '3px 3px 3px green',
           margin: '3px'
         }}
